@@ -1,0 +1,33 @@
+
+<div class="layout-column align-items-center mt-50">
+
+  <form #restaurantForm="ngForm"></form>
+  <section class="layout-row align-items-center justify-content-center">
+    <input type="text" #name="ngModel" [(ngModel)]="model.name" 
+      class="large" placeholder="Restaurant Name" data-test-id="restaurant-name-input"/>
+    <input type="text" #city="ngModel" [(ngModel)]="model.city" 
+      class="large" placeholder="City Name" data-test-id="city-name-input"/>
+    <button (click)="onSubmit(model)" data-test-id="submit-button">Submit</button>
+  </section>
+
+  <div class="card w-30 mt-30 pb-8">
+    <table class="mb-0">
+      <thead>
+      <tr>
+        <th>Restaurant name</th>
+        <th>City</th>
+      </tr>
+      </thead>
+      <tbody data-test-id="restaurant-list">
+      <tr>
+        <th>Name</th>
+        <th>City</th>
+      </tr>
+      <tr *ngFor="let restaurant of restaurants">
+        <th>{{restaurant.name}}</th>
+        <th>{{restaurant.city}}</th>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

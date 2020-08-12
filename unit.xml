@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 84.0.4147 (Windows 10.0.0)" package="unit" timestamp="2020-08-12T04:23:16" id="0" hostname="PHCND7142TNY" tests="4" errors="1" failures="4" time="0.176">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/84.0.4147.105 Safari/537.36"/>
+  </properties>
+  <testcase name="RestaurantDirectory Should clear the input after submit btn is clicked" time="0.109" classname=".RestaurantDirectory">
+    <failure type="">Error: Expected 2 to equal 1.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:84:44
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Name' to equal 'Hard Rock Cafe'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:85:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'City' to equal 'San Jose'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:86:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="RestaurantDirectory Should not add anything if either value is empty" time="0.034" classname=".RestaurantDirectory">
+    <failure type="">Error: Expected 2 to equal 0.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:96:44
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 3 to equal 0.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:102:44
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 4 to equal 0.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:108:44
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="RestaurantDirectory Initial UI is rendered as expected" time="0.013" classname=".RestaurantDirectory">
+    <failure type="">Error: Expected 1 to equal 0.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:57:60
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+</failure>
+  </testcase>
+  <testcase name="RestaurantDirectory Should add new values on btn click" time="0.02" classname=".RestaurantDirectory">
+    <failure type="">Error: Expected 4 to equal 3.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:69:44
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Name' to equal 'Hard Rock Cafe'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:70:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'City' to equal 'San Jose'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:71:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Hard Rock Cafe' to equal 'Subway'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:72:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'San Jose' to equal 'Seattle'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:73:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Subway' to equal 'McDonalds'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:74:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Seattle' to equal 'New York'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/restaurantDirectory/restaurantDirectory.component.spec.ts:75:62
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
